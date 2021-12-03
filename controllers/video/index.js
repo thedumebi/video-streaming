@@ -14,7 +14,7 @@ const streamVideo = (req, res) => {
     __dirname,
     "..",
     "..",
-    `uploads/video/${videoId}.mp4`
+    `uploads/video/${videoId}`
   );
   const videoSize = fs.statSync(videoPath).size;
   // decide the chunk size to send with every concurrent request
