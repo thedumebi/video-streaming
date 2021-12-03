@@ -1,0 +1,22 @@
+{
+  "name": "video-streaming",
+  "version": "1.0.0",
+  "description": "video streaming application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
+  },
+  "keywords": [
+    "video",
+    "streaming"
+  ],
+  "author": "Chiwuzoh Daniel Dumebi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
