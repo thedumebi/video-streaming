@@ -7,8 +7,11 @@ const app = express();
 app.use(cors);
 
 app.get("/", (req, res) => {
-  // first route
+  res.sendFile(__dirname + "index.html");
 });
+
+// video route
+app.use("/video", require("./routes"));
 
 const PORT = process.env.PORT || 4400;
 
